@@ -1,6 +1,8 @@
-{
-  "name": "puppy-pic1",
+[
+  {
+  "name": "puppy-pic1.jpg",
   "size": 1024,
-  "type": "png",
+  "type": "jpg",
   "url": "https://www.thelabradorsite.com/wp-content/uploads/2020/05/10-tips.jpg"
-}
+  }
+]
