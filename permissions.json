@@ -1,14 +1,15 @@
-
-
 {
-  "Version": "2012-10-17",
-  "Statement": [
-      {
-          "Sid": "Statement1",
-          "Effect": "Allow",
-          "Principal": "*",
-          "Action": ["s3:GetObject", "s3:PutObject"],
-          "Resource": "your-arn-specific-to-your-bucket/*"
-      }
-  ]
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Principal": "*",
+			"Effect": "Allow",
+			"Action": [
+				"s3:GetObject",
+				"s3:PutObject"
+			],
+			"Resource": ["arn:aws:s3:::cf-lab17-demo/*"]
+		}
+	]
 }

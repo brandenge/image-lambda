@@ -8,7 +8,7 @@
 
 This lab demonstrates how to use AWS Lambda, triggered by an AWS S3 event. The S3 event is a user uploading a new image, which triggers the AWS Lambda function to download an image.json from the S3 bucket, and append the newly uploaded image to the json file.
 
-[images.json file]()
+[images.json file](https://cf-lab17-demo.s3.us-east-2.amazonaws.com/images.json)
 
 ### How to use the lambda
 
